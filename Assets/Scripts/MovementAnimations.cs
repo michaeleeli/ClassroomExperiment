@@ -9,6 +9,7 @@ public class MovementAnimations : MonoBehaviour {
 	float pitch { get { return transform.localRotation.eulerAngles.x; } }
 	float yaw { get { return transform.localRotation.eulerAngles.y; } }
 	float roll { get { return transform.localRotation.eulerAngles.z; } }
+	float w { get { return transform.localRotation.w; } }
     Transform[] bones;
     public Transform neck;
 
